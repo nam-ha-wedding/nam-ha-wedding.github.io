@@ -11,4 +11,12 @@
             document.getElementById("play").className = 'fa fa-volume-up icon-play'
         }
     }
+
+        document.addEventListener("scroll", (event) => {
+            let audio = document.getElementById("playAudio");
+        if(audio.paused){
+            audio.play();
+            document.getElementById("play").className = 'fa fa-volume-off icon-play'
+        } 
+          });
  })();
