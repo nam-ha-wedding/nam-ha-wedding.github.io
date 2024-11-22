@@ -7901,6 +7901,6 @@ header {
     }
 }
 
-.icon-play{position: fixed; bottom: 30px; left: 30px; font-size: 30px !important; height: 50px; width: 50px; text-align: center; background-color: rgb(180, 106, 72); color: white; padding: 10px; border-radius: 50%; cursor: pointer;}
+.icon-play{position: fixed; z-index: 999; bottom: 30px; left: 30px; font-size: 30px !important; height: 50px; width: 50px; text-align: center; background-color: rgb(180, 106, 72); color: white; padding: 10px; border-radius: 50%; cursor: pointer;}
 
 /*# sourceMappingURL=style.min.css.map */
